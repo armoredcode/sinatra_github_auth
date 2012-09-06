@@ -14,4 +14,9 @@ Gem::Specification.new do |gem|
   gem.name          = "sinatra_github_auth"
   gem.require_paths = ["lib"]
   gem.version       = SinatraGithubAuth::VERSION
+  gem.license       = "MIT"
+
+  gem.post_install_message = ""
+
+  gem.add_dependency = 
 end
